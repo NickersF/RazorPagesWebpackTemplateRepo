@@ -1,0 +1,40 @@
+{
+  "name": "RazorPagesWebpackTemplateRepo",
+  "version": "1.0.0",
+  "description": "A template repository for RazorPages on .net 6 using webpack.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run webpack & npm run sass-compile",
+    "devserver": "http-server",
+    "webpack-watch": "webpack --watch --progress --config webpack.config.js",
+    "webpack": "webpack --config webpack.config.js",
+    "sass-watch": "sass --watch ./src/sass:./wwwroot/dist/css",
+    "sass-compile": "sass ./src/sass:./wwwroot/dist/css",
+    "npm-update": "npm update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickersF/TypeScriptSandbox.git"
+  },
+  "author": "Nicholas Fazzolari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickersF/TypeScriptSandbox/issues"
+  },
+  "homepage": "https://github.com/NickersF/TypeScriptSandbox#readme",
+  "dependencies": {
+    "@types/jquery": "^3.5.14",
+    "@types/lodash": "^4.14.184",
+    "bootstrap": "^4.6.0",
+    "commonjs": "^0.0.1",
+    "http-server": "^0.12.3",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "node": "^16.17.0",
+    "source-map-loader": "^3.0.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
