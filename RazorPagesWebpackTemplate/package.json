@@ -1,5 +1,5 @@
 {
-  "name": "RazorPagesWebpackTemplateRepo",
+  "name": "razorrageswebpacktemplaterepo",
   "version": "1.0.0",
   "description": "A template repository for RazorPages on .net 6 using webpack.",
   "main": "index.js",
